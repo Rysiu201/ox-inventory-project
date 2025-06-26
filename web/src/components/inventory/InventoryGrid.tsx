@@ -47,6 +47,7 @@ const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
                 inventoryType={inventory.type}
                 inventoryGroups={inventory.groups}
                 inventoryId={inventory.id}
+                maxWeight={inventory.maxWeight}
               />
             ))}
           </>
